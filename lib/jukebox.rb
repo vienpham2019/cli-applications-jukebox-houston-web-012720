@@ -1,4 +1,5 @@
 # Add your code here
+require "pry"
 def help
   puts "I accept the following commands:"
   puts "- help : displays this help message"
@@ -16,6 +17,7 @@ def list(song)
 end
 
 def play(song)
+  binding.pry
   puts "Please enter a song name or number:"
   input = gets.strip
   if input.to_i < song.length
