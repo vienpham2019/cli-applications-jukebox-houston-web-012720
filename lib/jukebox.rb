@@ -17,7 +17,6 @@ def list(song)
 end
 
 def play(song)
-  binding.pry
   puts "Please enter a song name or number:"
   input = gets.strip
   if input.length < 2
