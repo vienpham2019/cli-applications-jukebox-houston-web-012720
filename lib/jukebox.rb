@@ -32,6 +32,9 @@ def exit_jukerbox
   puts "Goodbye"
 end
 
+def run(song)
+  
+
 
 
 
