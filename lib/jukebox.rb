@@ -1,4 +1,5 @@
 # Add your code here
+def help
 def list(song)
   song
 end
