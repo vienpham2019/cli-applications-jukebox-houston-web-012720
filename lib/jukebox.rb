@@ -9,8 +9,8 @@ end
 
 def list(song)
   n = 0
-  while n < songs.length do 
-    puts "#{n += 1}. #{songs[n]}"
+  while n < song.length do 
+    puts "#{n += 1}. #{song[n]}"
     n += 1
   end
 end
