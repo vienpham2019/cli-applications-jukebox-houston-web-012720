@@ -20,8 +20,8 @@ def play(song)
   binding.pry
   puts "Please enter a song name or number:"
   input = gets.strip
-  if input < 2
-    puts "Playing #{song[input.to_i]}"
+  if input.length < 2
+    puts "Playing #{song[input.to_i - 1]}"
   elsif song.include?(input)
     puts "Playing #{input}"
   else
