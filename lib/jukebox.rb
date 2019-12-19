@@ -5,6 +5,7 @@ def help
   puts "-list : displays a list a song you can play"
   puts "-play : lets you choose a song to play"
   puts "-exit : exits this program"
+end
 def list(song)
   song.each do |e|
     puts e
