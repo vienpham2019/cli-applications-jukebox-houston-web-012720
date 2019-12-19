@@ -10,7 +10,7 @@ end
 def list(song)
   n = 0
   while n < song.length do 
-    puts "#{n += 1}. #{song[n]}"
+    puts "#{n + 1}. #{song[n]}"
     n += 1
   end
 end
