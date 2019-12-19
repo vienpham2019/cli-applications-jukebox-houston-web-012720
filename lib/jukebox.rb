@@ -29,7 +29,8 @@ def play(song)
 end
 
 def exit_jukerbox
-  
+  puts "Goodbye"
+end
 
 
 
