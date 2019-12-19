@@ -8,8 +8,10 @@ def help
 end
 
 def list(song)
-  song.each do |e|
-    puts e
+  n = 0
+  while n < songs.length do 
+    puts "#{n + 1}. #{songs[n]}"
+    n += 1
   end
 end
 
