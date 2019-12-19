@@ -44,8 +44,7 @@ def run(song)
       play(song)
     when "exit"
       exit_jukerbox
-    break
-  end
+    break 
 
 
 
