@@ -33,7 +33,10 @@ def exit_jukerbox
 end
 
 def run(song)
-  
+  puts "Please enter a command:"
+  input = gets.strip
+  case input 
+    when 
 
 
 
