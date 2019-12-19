@@ -1,7 +1,10 @@
 # Add your code here
 def help
   puts "I accept the following commands:"
-  puts "-help : display
+  puts "-help : displays this help message"
+  puts "-list : displays a list a song you can play"
+  puts "-play : lets you choose a song to play"
+  puts "-exit : exits this program"
 def list(song)
   song
 end
