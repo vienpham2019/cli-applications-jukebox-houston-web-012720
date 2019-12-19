@@ -1,5 +1,7 @@
 # Add your code here
 def help
+  puts "I accept the following commands:"
+  puts "-help : display
 def list(song)
   song
 end
